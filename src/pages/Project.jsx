@@ -21,14 +21,15 @@ function Projects() {
   return (
     <div>
       <h2>Projects</h2>
-      <ul>
-        {projects.map(project => (
-          <li key={project.id}>
-            <a href={`/projects/${project.slug}`}>{project.title}</a>
-          </li>
-        ))}
-      </ul>
+      <div className="contact-info">
+        <h3>Projet :</h3>
+        <ul>
+          <li>Trouvetonasso : <a href="[https://github.com/TrouveTonAssoTeam/TrouveTonAsso.git]">Trouvetonasso</a></li>
+        </ul>
+      </div>
     </div>
+
+    
   );
 }
 

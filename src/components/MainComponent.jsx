@@ -1,5 +1,4 @@
 // MainComponent.jsx
-
 import React from 'react';
 import { useTheme } from './ThemeContext';
 
@@ -12,9 +11,10 @@ function MainComponent() {
       <button onClick={toggleDarkMode}>
         {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
       </button>
-      {/* Other components and content */}
+      {/* Autres composants et contenu */}
     </div>
   );
 }
 
 export default MainComponent;
+
